@@ -1,0 +1,21 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+14:40:13.746726 IP 10.10.10.4.43144 > 1.1.1.1.53: 46010+ [1au] A? www.upds.edu.bo. (44)
+14:40:14.035729 IP 10.10.10.4.36073 > 1.1.1.1.53: 62591+% [1au] DNSKEY? . (28)
+14:40:14.035861 IP 10.10.10.4.17628 > 1.1.1.1.53: 43468+ [1au] NULL? _ta-4f66-9728. (42)
+14:40:14.076545 IP 10.10.10.4.26760 > 1.1.1.1.53: 26330+% [1au] DS? bo. (31)
+14:40:14.248942 IP 10.10.10.4.35019 > 1.1.1.1.53: 53479+ [1au] A? www.wikipedia.org. (46)
+14:40:14.451731 IP 10.10.10.4.29691 > 1.1.1.1.53: 57465+ [1au] A? dyna.wikimedia.org. (47)
+14:40:14.492833 IP 10.10.10.4.26287 > 1.1.1.1.53: 28005+% [1au] DS? org. (32)
+14:40:14.527636 IP 10.10.10.4.42837 > 1.1.1.1.53: 57845+% [1au] DNSKEY? org. (32)
+14:40:14.560566 IP 10.10.10.4.34332 > 1.1.1.1.53: Flags [S], seq 2439263065, win 64240, options [mss 1460,sackOK,TS val 1570906826 ecr 0,nop,wscale 10,tfo  cookiereq,nop,nop], length 0
+14:40:14.602273 IP 10.10.10.4.34332 > 1.1.1.1.53: Flags [.], ack 882452647, win 63, options [nop,nop,TS val 1570906868 ecr 1177682512], length 0
+14:40:14.602328 IP 10.10.10.4.34332 > 1.1.1.1.53: Flags [P.], seq 0:34, ack 1, win 63, options [nop,nop,TS val 1570906868 ecr 1177682512], length 34 41076+% [1au] DNSKEY? org. (32)
+14:40:14.643349 IP 10.10.10.4.34332 > 1.1.1.1.53: Flags [.], ack 1322, win 66, options [nop,nop,TS val 1570906909 ecr 1177682553], length 0
+14:40:14.643735 IP 10.10.10.4.40929 > 1.1.1.1.53: 39712+% [1au] DS? wikipedia.org. (42)
+14:40:14.681892 IP 10.10.10.4.63233 > 1.1.1.1.53: 64796+% [1au] DS? wikimedia.org. (42)
+14:40:24.642821 IP 10.10.10.4.34332 > 1.1.1.1.53: Flags [F.], seq 34, ack 1323, win 66, options [nop,nop,TS val 1570916908 ecr 1177692552], length 0
+
+15 packets captured
+15 packets received by filter
+0 packets dropped by kernel

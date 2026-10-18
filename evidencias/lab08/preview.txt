@@ -1,0 +1,11 @@
+CONCURRENTLY checking for 1 zone(s)
+SERIALLY checking for 0 zone(s)
+Waiting for concurrent checking(s) to complete...DONE
+CONCURRENTLY gathering records of 1 zone(s)
+SERIALLY gathering records of 0 zone(s)
+Waiting for concurrent gathering(s) to complete...DONE
+******************** Domain: ue-horizonte.example
+2 corrections (bind)
+#1: [33m± MODIFY ue-horizonte.example A (203.0.113.20 ttl=3600) -> (203.0.113.21 ttl=3600)[0m
+[33m± MODIFY www.ue-horizonte.example A (203.0.113.20 ttl=3600) -> (203.0.113.21 ttl=3600)[0m
+Done. 2 corrections.

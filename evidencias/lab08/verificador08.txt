@@ -1,0 +1,18 @@
+✅ Configuración válida (unbound-checkconf)
+✅ Unbound activo
+✅ www.horizonte.internal → 10.10.10.20 (stub-zone)
+✅ portal (CNAME) resuelto hasta la IP
+✅ Inversa privada 10.10.10.25 → mail
+✅ Resuelve internet (www.upds.edu.bo)
+✅ DNSSEC validado (flag ad en cloudflare.com)
+✅ DNSSEC falso rechazado (dnssec-failed.org → SERVFAIL)
+✅ RPZ: apuestas-ejemplo.com → NXDOMAIN
+✅ RPZ: subdominios también bloqueados
+✅ RPZ: phishing redirigido a la página de aviso
+✅ RPZ: rastreador sin datos (NODATA)
+✅ Caché: segunda consulta en ≤ 2 ms
+✅ Versión oculta
+✅ Acceso solo para la red del colegio
+✅ Salida a internet solo cifrada (DoT :853, nada por :53)
+✅ Zona pública generada con DNSControl y válida
+Resultado: 17 de 17 comprobaciones

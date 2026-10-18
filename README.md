@@ -71,3 +71,13 @@ sudo systemctl start nginx php8.3-fpm horizonte-eco
 - Informe técnico (APA 7): `docs/Informe_Actividad01_Leonardo_Avila.docx`
 - Hojas de trabajo y bitácoras de IA de cada laboratorio: carpeta `docs/`
 - Presentación: exportada en `docs/` (PDF/PPTX)
+
+## Actividad 02 - Infraestructura DNS (Labs 6 a 8)
+
+Laboratorios 6 a 8: análisis DNS de dominios reales, BIND9 autoritativo con TSIG y resolutor Unbound. Detalle completo en [README_Actividad02.md](README_Actividad02.md).
+
+| Lab | Tema | Resultado |
+|---|---|---|
+| [06](lab06/README.md) | Radiografía DNS de dominios reales | 12/12 |
+| [07](lab07/README.md) | BIND9 primario y secundario con TSIG | 16/16 |
+| [08](lab08/README.md) | Unbound: caché, DNSSEC, DoT, RPZ y DNSControl | 17/17 |

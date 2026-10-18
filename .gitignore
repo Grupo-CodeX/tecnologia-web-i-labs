@@ -1,0 +1,16 @@
+# Secretos: NUNCA al repositorio
+**/compartido/transferencia.key
+*.key
+*.pem
+**/creds.local.json
+.env
+
+# Respaldos y archivos temporales
+*.bak
+*.respaldo-*
+*.original
+**/zonas/*.zone.bak
+
+# Sistema
+Thumbs.db
+.DS_Store
